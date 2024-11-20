@@ -47,5 +47,6 @@ int main()
 	std::cout << "Sum: " << SUM;
 	
 	delete [] ARRAY;
+	ARRAY = nullptr;
 	return 0;
 }
